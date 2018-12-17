@@ -1,3 +1,22 @@
-<p>
-  header works!
-</p>
+<div class="o-grid o-grid--1 u-flex-main-end" style="background: royalblue">
+  <button>
+      <span class="material-icon">person</span>
+  </button>
+  <ul>
+    <li>
+    <button (click)="showProfile()">
+      <span>My profile</span>
+    </button>
+  </li>
+    <li>
+    <button (click)="showAdmin()">
+      <span>Admin</span>
+    </button>
+  </li>
+    <li>
+    <button (click)="handleLogout()">
+      <span>Logout</span>
+    </button>
+  </li>
+  </ul>
+</div>
