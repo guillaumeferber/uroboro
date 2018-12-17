@@ -1,0 +1,10 @@
+/* buttons
+   ========================================================================== */
+
+.c-btn {
+  @include rhythm-btn;
+  display: inline-block;
+  text-decoration: none;
+  vertical-align: top;
+  cursor: pointer;
+}

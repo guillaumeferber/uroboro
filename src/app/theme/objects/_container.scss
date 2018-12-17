@@ -1,0 +1,11 @@
+/* container
+   ========================================================================== */
+
+.o-container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+// container width generator
+@include container-width;
